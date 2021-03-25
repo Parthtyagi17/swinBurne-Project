@@ -1,0 +1,150 @@
+*{
+ box-sizing: border-box;
+ margin: 8px;
+ background-attachment: fixed;
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+ font-family: 'Raleway', sans-serif;
+
+
+}
+.img_top{
+    width: 76px;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+.wrap{
+  display: flex;
+}
+.logo{
+  width: 54px;
+  height: 54px;
+  padding: none;
+  margin-right: 0;
+}
+.mainBod{
+    background-image: url();
+    color: white;
+    margin: 10;
+    padding: 10;
+}
+.box-2 img{
+    width: 660px;
+
+}
+.textontop{
+    font-size: 29px;
+    line-height: 90px;
+    margin: 25px 0;
+}
+.textontop h2{
+  text-align: center;
+}
+body{
+    background: grey;
+}
+nav ul{
+    padding: auto;
+    margin: 0;
+    list-style: none;
+}
+nav li{
+    display: inline-block;
+    margin-left: 50px;
+    margin-top: 25px;
+    position: relative;
+}
+
+.Help{
+    display: inline-block;
+    background: black;
+    color: #fff;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+}
+
+.Help a{
+  text-decoration: none;
+  color: #fff;
+}
+nav a{
+    color: #444;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 28px;
+}
+nav a:hover{
+    color: #000;
+}
+
+.soon{
+  display: flex;
+}
+
+.booked{
+  display: flex;
+}
+
+.footer{
+    background: rgb(9 9 9);
+    color: #ffff;
+    font-size: 35px;
+    padding: 0;
+    display: flex;
+
+}
+
+.footer ul{
+  list-style: none;
+}
+
+.fot-col2{
+  margin-top: 122px;
+}
+
+.social{
+  width: 72px;
+  height: 70px;
+}
+
+.inta{
+  margin-top: 122px;
+  background-color: rgb(128 128 128);
+  width: 83px;
+  height: 83px;
+  border-radius: 100px;
+  }
+
+  .fb{
+    margin-top: 122px;
+    background-color: rgb(128 128 128);
+    width: 83px;
+    height: 83px;
+    border-radius: 100px;
+  }
+
+  .twit{
+    margin-top: 122px;
+    background-color: rgb(128 128 128);
+    width: 83px;
+    height: 83px;
+    border-radius: 100px;
+  }
+
+  .botSocial{
+    position: relative;
+    margin-left: 465px;
+    display: flex;
+  }
+
+
+h2{
+    float:
+}
+p{
+    float: ;
+}
