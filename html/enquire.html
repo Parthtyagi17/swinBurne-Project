@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="Creating a Web Page for a dealship that sells brand new/ second hand motor bikes" />
+    <meta name="keywords" content="Web Page, Self Created" />
+    <meta name="author" content="Parth Tyagi"  />
+    <title>Court Hiring services</title>
+    <link rel="stylesheet" href="Finalcss.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="mainBod">
+      <div class="wrap">
+        <div class="logo">
+            <img src="images/360_F_376060846_B8nJjwmpFPNT2O4pytxKuB3YPBgLdp4f.jpg" alt="Logo" class="img_top">
+        </div>
+        <nav>
+            <ul>
+                <li class="links"><a href="Finalindex.html">Home</a></li>
+                <li class="links"><a href="product.html">Products</a></li>
+                <li class="links"><a href="enquire.html">Enquiry</a></li>
+                <li class="links"><a href="About.html">About</a></li>
+                <li class="links"><a href="Enhance.html">Enhancement</a></li>
+            </ul>
+        </nav>
+      </div>
+
+</div>
+</div>
+<h1>Enquiry Registration</h1>
+
+<form method="post" action="http://mercury.swin.edu.au/it000000/formtest.php">
+    <fieldset>
+        <legend>Personal Details</legend>
+	<p><label for="Firstname">First name:</label>
+        <input type="text" name="firstame" id="firstname" required maxlength="25">
+    </p>
+    <p><label for="Lastname">Last name:</label>
+        <input type="text" name="lastname" id="lastname" required maxlength="25">
+    </p>
+    
+   <fieldset>
+       <legend>Residential Details</legend>
+       <p><label for="Street">Street address:</label>
+          <input type="text" name="street" id="street" required maxlength="40">
+       </p>
+       <p><label for="town">Suburb/Town:</label>
+           <input type="text" name="town" id="town" required maxlength="20">
+       </p>
+       <p><label for="State">State:</label>
+         <select name="State" id="State">
+             <option value="VIC" selected>VIC</option>
+             <option value="NSW">NSW</option>
+             <option value="QLD">QLD</option>
+             <option value="NT">NT</option>
+             <option value="WA">WA</option>
+             <option value="SA">SA</option>
+             <option value="TAS">TAS</option>
+             <option value="ACT">ACT</option>
+         </select>
+       </p>
+       <p><label for="pincode">Pincode:</label>
+        <input type="text" name="pincode" id="pincode" maxlength="4" pattern="\d{4}" required>
+       </p>
+   </fieldset>
+   <fieldset>
+       <legend>Contact Details</legend>
+       <p><label for="phone">Phone:</label> 
+           <input type="text" name="phone" id="phone" maxlength="10" placeholder="Enter Phone number" >
+       </p>
+       <p><label for="Email">Email:</label>
+        <input type="email" name="email" id="email" required>
+    </p> 
+    </fieldset>
+   </fieldset>
+   <fieldset>
+       <legend>Enquiry</legend>
+        <p><strong> Preferred Contact:</p></strong>
+            <p> <label for="Email">Email    </label>
+                <input type="radio" id="email" name="email" value="email" checked>
+                <label for="Post">Post    </label>
+                <input type="radio" id="post" name="post" value="email">
+                <label for="phone">Phone    </label>
+                <input type="radio" id="phone" name="phone" value="phone">
+            </p><br><hr><br>
+            <p><label for="Product"><strong> Type of ground you need to enquire:</strong></label>
+               <select>
+                   <option value="default" selected>---Select---</option>
+                   <option value="Futsal">Futsal</option>
+                   <option value="multipurpose">Multipurpose Court</option>
+                   <option value="Basketball">Basketball-Court</option>
+                   <option value="Other ">Other Indoor Facilities</option>
+               </select>
+            </p> <br><hr><br>
+            <p><strong>Queries related to:</strong></p>
+             <p>
+                <label for="bb">Price related</label> 
+				<input type="checksize" id="bb" name="category[]" checked="checked"/>
+			    <label for=" price">Equipments related</label> 
+				<input type="checksize" id="cute" name="category[]" />
+			    <label for="other">Other Facilities</label> 
+				<input type="checksize" id="other" name="category[]" />
+             </p><hr><br>
+             <p><strong>Explain your enquiry in words</strong></p>
+             <p><label for="comment">Comments:</label>
+                <textarea name="comment" id="comment" cols="30" size-1s="10"></textarea>
+             </p><hr>
+   </fieldset>
+   <input type= "submit" value="Register"/>
+	<input type= "reset" value="Reset Form"/>
+
+</form>
+<div class="footer">
+    <div class="fot-col1">
+      <img src="images/360_F_376060846_B8nJjwmpFPNT2O4pytxKuB3YPBgLdp4f.jpg" alt="Logo" class="img_bot">
+    </div>
+    <div class="fot-col2">
+      <ul>
+        <li>About Us</li>
+        <li>Contact</li>
+      </ul>
+    </div>
+    <span class="botSocial">
+      <div class="twit"> <img src="images/twitter.png" alt="" class="social"> </div>
+      <div class="fb"> <img src="images/fb.png" alt="" class="social"> </div>
+      <div class="inta"> <img src="images/inta.png" alt="" class="social"> </div>
+    </span>
+    <div class="copyright">
+        <p>Copyright - Parth Tyagi</p>
+
+    </div>
+  
+  </div>
+
+    
+</body>
+</html>
