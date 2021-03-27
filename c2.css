@@ -20,6 +20,7 @@
 nav{
     flex: 1;
     text-align: right;
+    background-image: linear-gradient(black, #00000005);
 }
 .wrap{
   display: flex;
@@ -52,6 +53,7 @@ background-image: url(images/imageTopBar.jpg);
 body{
     background: #1a1a1a;
     color: #71db77;;
+    max-width: 100%;
 }
 nav ul{
     padding: auto;
@@ -151,7 +153,7 @@ nav a:hover{
     color: #ffff;
     font-size: 35px;
     padding: 0;
-    display: flex;
+    width: 100%;
 
 }
 
@@ -164,22 +166,83 @@ nav a:hover{
   list-style: none;
 }
 
+.rowBot{
+  display: flex;
+}
+
 .fot-col2{
-  margin-top: 25px;
+  margin-top: 65px;
   margin-left: 100px;
+}
+
+.fot-col2 li{
+  font-size: 1rem;
 }
 
 .fot-col3{
-  margin-top: 25px;
+  margin-top: 65px;
   margin-left: 100px;
 }
 
-.social{
-  width: 72px;
-  height: 70px;
+.fot-col3 li{
+  font-size: 1rem;
 }
 
+.copyright p{
+  font-size: 0.89rem;
+  color: grey;
+  text-align: center;
+}
+/* page 2 */
 
+.wrapBod2{
+  background-color: #71db77;
+  font-size: 29px;
+  line-height: 90px;
+  margin-bottom:65px;
+  text-shadow: 2px 2px 4px #000000;
+  color: #fff;
+}
+
+.page2{
+  background-image: none;
+}
+
+.textontop2{
+  color: black;
+}
+
+.row{
+  display: flex;
+  margin-bottom: 9%;
+}
+
+.proInfo{
+  margin-left: 10%;
+  width: 24%;
+}
+
+.desc{
+  margin-left: 12%;
+}
+
+.namePro{
+  font-size: 2.4rem;
+}
+
+.proimage{
+  width: 20%
+}
+
+.pricing{
+  margin-left: 12%;
+}
+
+.row :hover{
+  text-shadow: 2px 2px 4px #71db77;
+  transform: translateX(10px);
+  transition: 0.5s;
+}
 /* h2{
     float:
 }
